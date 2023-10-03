@@ -1,7 +1,18 @@
+
 @import 'variables';
 
 
 h1 {
     color: $primary-color;
     border: $standard-border;
+    font: $font1;
+}
+
+p {
+    color: $secondary-color;
+    font: $font2;
+}
+
+.wrapper {
+    margin: $margin1;
 }
