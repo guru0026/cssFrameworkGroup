@@ -16,3 +16,22 @@ p {
 .wrapper {
     margin: $margin1;
 }
+
+//List 
+
+ul{
+ background-color:$list-primary-color;
+ padding: $listpadding;
+ border:$shadowborder;
+ padding: $shadowpadding;
+ box-shadow: $shadowbox;
+}
+
+li{
+    color: $list-secondary-color;
+    font: $font1;
+    list-style: none;
+    padding:$lipadding;
+    border-bottom:$liborder;
+}
+
