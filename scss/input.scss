@@ -41,7 +41,7 @@ p {
 }
 
 .ul-style{
-    //adds red background to the container with the UL
+    //adds red background and padding to the container with the UL
     background-color: $secondary-color;
     padding: $listpadding;
 }
@@ -52,5 +52,5 @@ p {
     font: $font1;
     list-style: none;
     padding:$lipadding;
-    border-bottom:$liborder;
+
 }
