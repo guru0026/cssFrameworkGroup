@@ -13,16 +13,27 @@ p {
   margin: 10vh;
 }
 
-ul {
+.list-container {
   background-color: #f1f5f8;
   padding: 20px 30px;
-  border: 1px solid;
-  padding: 10px;
+  border: 30px solid black;
   box-shadow: 5px 10px #888888;
 }
-
-li {
+.list-container .list-item {
   color: #000000;
+  font: 30px "Work Sans bold 800", sans-serif;
+  list-style: none;
+  padding: 20px 20px 10px 10px;
+  border-bottom: 1px solid;
+}
+
+.ul-style {
+  background-color: #e74c3c;
+  padding: 20px 30px;
+}
+
+.li-style {
+  color: #3498db;
   font: 30px "Work Sans bold 800", sans-serif;
   list-style: none;
   padding: 20px 20px 10px 10px;
