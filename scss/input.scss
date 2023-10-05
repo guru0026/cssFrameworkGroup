@@ -1,9 +1,58 @@
+
 @import 'variables';
 
 
 h1 {
     color: $primary-color;
     border: $standard-border;
+    font: $font1;
+}
+
+p {
+    color: $secondary-color;
+    font: $font2;
+}
+
+.wrapper {
+    margin: $margin1;
+}
+
+
+
+
+
+
+.list-container {
+    //adds the lightblue background and thick border in the container with the Ul
+    background-color: $list-primary-color;
+    padding: $listpadding;
+    border: $listborder;
+    box-shadow: $shadowbox;
+    
+
+//adds padding and font into the list item
+    .list-item {
+        color: $list-secondary-color;
+        font: $font1;
+        list-style: none;
+        padding: $lipadding;
+        border-bottom: $liborder;
+    }
+}
+
+.ul-style{
+    //adds red background and padding to the container with the UL
+    background-color: $secondary-color;
+    padding: $listpadding;
+}
+
+   .li-style{
+    //adds padding changes font to blue in the list item.
+    color: $primary-color;
+    font: $font1;
+    list-style: none;
+    padding:$lipadding;
+
 }
 
 

@@ -4,5 +4,25 @@ $secondary-color: #e74c3c;
 $accent-color: #ffc107;
 $featured-color: #28a745;
 
-// BORDERS
+// BORDERS, PADDING, MARGINS
 $standard-border: 4px solid black;
+$margin1: 10vh;
+
+// FONTS
+$font1: 30px 'Work Sans bold 800', sans-serif;
+$font2: 16px 'Work Sans 500', sans-serif; 
+
+// List 
+$list-primary-color: #f1f5f8;
+$list-secondary-color: #000000;
+$listpadding: 20px 30px;
+$listborder: 30px solid black; 
+
+//Li 
+$lipadding: 20px 20px 10px 10px;
+$liborder:1px solid;
+
+//li shadows
+$shadowborder:1px solid;
+$shadowpadding:10px;
+$shadowbox:5px 10px #888888;
