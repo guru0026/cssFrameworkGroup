@@ -54,3 +54,40 @@ p {
     padding:$lipadding;
 
 }
+
+
+@mixin btn-styles($bg-color, $text-color) {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: $bg-color;
+    color: $text-color;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: lighten($bg-color, 10%);
+      }
+
+    &:active {
+        background-color: $bg-color;
+      }
+  }
+
+  .button-primary {
+    @include btn-styles($bg-color: $primary-color, $text-color: #fff);
+  }
+  
+  .button-secondary {
+    @include btn-styles($bg-color: $secondary-color, $text-color: #fff);
+  }
+
+  .button-info {
+    @include btn-styles($bg-color: $accent-color, $text-color: #fff);
+  }
+  
+  .button-warning {
+    @include btn-styles($bg-color: $featured-color, $text-color: #fff);
+  }
+  

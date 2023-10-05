@@ -39,4 +39,72 @@ p {
   padding: 20px 20px 10px 10px;
 }
 
+.button-primary {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+.button-primary:hover {
+  background-color: #5faee3;
+}
+.button-primary:active {
+  background-color: #3498db;
+}
+
+.button-secondary {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #e74c3c;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+.button-secondary:hover {
+  background-color: #ed7669;
+}
+.button-secondary:active {
+  background-color: #e74c3c;
+}
+
+.button-info {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #ffc107;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+.button-info:hover {
+  background-color: #ffce3a;
+}
+.button-info:active {
+  background-color: #ffc107;
+}
+
+.button-warning {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #28a745;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+.button-warning:hover {
+  background-color: #34ce57;
+}
+.button-warning:active {
+  background-color: #28a745;
+}
+
 /*# sourceMappingURL=output.css.map */
