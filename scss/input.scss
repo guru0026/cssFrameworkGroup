@@ -27,18 +27,18 @@ h1 {
   }
 
   .button-primary {
-    @include btn-styles($bg-color: #1c9bef, $text-color: #fff);
+    @include btn-styles($bg-color: $primary-color, $text-color: #fff);
   }
   
   .button-secondary {
-    @include btn-styles($bg-color: #58ba47, $text-color: #fff);
+    @include btn-styles($bg-color: $secondary-color, $text-color: #fff);
   }
 
   .button-info {
-    @include btn-styles($bg-color: #f2be01, $text-color: #fff);
+    @include btn-styles($bg-color: $accent-color, $text-color: #fff);
   }
   
   .button-warning {
-    @include btn-styles($bg-color: #ff4e31, $text-color: #fff);
+    @include btn-styles($bg-color: $featured-color, $text-color: #fff);
   }
   

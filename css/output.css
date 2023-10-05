@@ -9,15 +9,15 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  background-color: #1c9bef;
+  background-color: #3498db;
   color: #fff;
   transition: background-color 0.3s;
 }
 .button-primary:hover {
-  background-color: #4cb0f2;
+  background-color: #5faee3;
 }
 .button-primary:active {
-  background-color: #1c9bef;
+  background-color: #3498db;
 }
 
 .button-secondary {
@@ -26,15 +26,15 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  background-color: #58ba47;
+  background-color: #e74c3c;
   color: #fff;
   transition: background-color 0.3s;
 }
 .button-secondary:hover {
-  background-color: #7ac86c;
+  background-color: #ed7669;
 }
 .button-secondary:active {
-  background-color: #58ba47;
+  background-color: #e74c3c;
 }
 
 .button-info {
@@ -43,15 +43,15 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  background-color: #f2be01;
+  background-color: #ffc107;
   color: #fff;
   transition: background-color 0.3s;
 }
 .button-info:hover {
-  background-color: #fed028;
+  background-color: #ffce3a;
 }
 .button-info:active {
-  background-color: #f2be01;
+  background-color: #ffc107;
 }
 
 .button-warning {
@@ -60,15 +60,15 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  background-color: #ff4e31;
+  background-color: #28a745;
   color: #fff;
   transition: background-color 0.3s;
 }
 .button-warning:hover {
-  background-color: #ff7a64;
+  background-color: #34ce57;
 }
 .button-warning:active {
-  background-color: #ff4e31;
+  background-color: #28a745;
 }
 
 /*# sourceMappingURL=output.css.map */
