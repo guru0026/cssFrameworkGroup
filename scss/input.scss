@@ -17,18 +17,13 @@ p {
     margin: $margin1;
 }
 
-
-
-
-
-
 .list-container {
     //adds the lightblue background and thick border in the container with the Ul
     background-color: $list-primary-color;
     padding: $listpadding;
     border: $listborder;
     box-shadow: $shadowbox;
-    
+   
 
 //adds padding and font into the list item
     .list-item {
