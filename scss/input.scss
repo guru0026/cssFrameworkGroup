@@ -1,11 +1,21 @@
 
 @import 'variables';
 
-
+// HEADERS and BODY
 h1 {
-    color: $primary-color;
-    border: $standard-border;
+    color: $light-color;
+    background-color: $dark-color;
     font: $font3;
+    padding: $p-2;
+    box-shadow: $shadowbox;
+}
+
+h2 {
+  color: $light-color;
+  background-color: $dark-color;
+  font: $font4;
+  padding: $p-1;
+  box-shadow: $shadowbox;
 }
 
 p {
@@ -17,6 +27,39 @@ p {
     margin: $margin1;
 }
 
+// NAVBAR
+
+nav {
+  text-align: right;
+  font: $font1;
+  background-color: $light-color;
+
+  li {
+    display: inline-block;
+    text-align: right;
+    list-style-type: none;
+    text-decoration: none;
+
+    a {
+      text-decoration: none;
+      color: $dark-color;
+      font-weight: 600;
+      padding: $p-2;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:active {
+        background-color: $dark-color;
+        color: $light-color;
+      }
+    }
+  }
+}
+
+
+// LIST
 .list-container {
     //adds the lightblue background and thick border in the container with the Ul
     background-color: $list-primary-color;

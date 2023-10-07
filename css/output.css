@@ -1,7 +1,17 @@
 h1 {
-  color: #3498db;
-  border: 4px solid black;
+  color: white;
+  background-color: black;
+  font: 60px "Pixelify Sans", sans-serif;
+  padding: 20px;
+  box-shadow: 5px 10px rgba(136, 136, 136, 0.5607843137);
+}
+
+h2 {
+  color: white;
+  background-color: black;
   font: 45px "Pixelify Sans", sans-serif;
+  padding: 10px;
+  box-shadow: 5px 10px rgba(136, 136, 136, 0.5607843137);
 }
 
 p {
@@ -13,6 +23,31 @@ p {
   margin: 10vh;
 }
 
+nav {
+  text-align: right;
+  font: 25px "Work Sans bold 800", sans-serif;
+  background-color: white;
+}
+nav li {
+  display: inline-block;
+  text-align: right;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 20px;
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+nav li a:active {
+  background-color: black;
+  color: white;
+}
+
 .list-container {
   background-color: #f1f5f8;
   padding: 20px 30px;
@@ -21,7 +56,7 @@ p {
 }
 .list-container .list-item {
   color: #000000;
-  font: 30px "Work Sans bold 800", sans-serif;
+  font: 25px "Work Sans bold 800", sans-serif;
   list-style: none;
   padding: 20px 20px 10px 10px;
   border-bottom: 1px solid;
@@ -34,7 +69,7 @@ p {
 
 .li-style {
   color: #f1f5f8;
-  font: 30px "Work Sans bold 800", sans-serif;
+  font: 25px "Work Sans bold 800", sans-serif;
   list-style: none;
   padding: 20px 20px 10px 10px;
 }
