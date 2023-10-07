@@ -38,7 +38,7 @@ nav li a {
   text-decoration: none;
   color: black;
   font-weight: 600;
-  padding: 20px;
+  padding: 10px;
 }
 nav li a:hover {
   text-decoration: underline;
@@ -46,6 +46,7 @@ nav li a:hover {
 nav li a:active {
   background-color: black;
   color: white;
+  box-shadow: 5px 10px rgba(136, 136, 136, 0.5607843137);
 }
 
 .list-container {

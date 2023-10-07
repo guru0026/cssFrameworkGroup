@@ -44,15 +44,17 @@ nav {
       text-decoration: none;
       color: $dark-color;
       font-weight: 600;
-      padding: $p-2;
+      padding: $p-1;
 
       &:hover {
         text-decoration: underline;
+        // box-shadow: $shadowbox;
       }
 
       &:active {
         background-color: $dark-color;
         color: $light-color;
+        box-shadow: $shadowbox;
       }
     }
   }
