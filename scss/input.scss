@@ -18,8 +18,8 @@ h2 {
   box-shadow: $shadowbox;
 }
 
-p {
-    color: $secondary-color;
+p, label {
+    color: $dark-color;
     font: $font2;
 }
 
@@ -28,15 +28,18 @@ p {
 }
 
 // NAVBAR
+// SASS Interpolation
+$nav-prefix: 'navbar';
 
-nav {
+.#{$nav-prefix} {
   text-align: right;
   font: $font1;
   background-color: $light-color;
 
+  
+
   li {
     display: inline-block;
-    text-align: right;
     list-style-type: none;
     text-decoration: none;
 
@@ -60,6 +63,19 @@ nav {
     }
   }
 }
+
+.#{$nav-prefix}-left {
+  @extend .navbar;
+  text-align: left;
+}
+
+.#{$nav-prefix}-center {
+  @extend .navbar;
+  text-align: center;
+}
+
+
+
 
 
 // LIST
@@ -96,6 +112,7 @@ nav {
 
 }
 
+// BUTTON
 
 @mixin btn-styles($bg-color, $text-color, $border-color: transparent) {
   padding: 15px 20px;
@@ -133,4 +150,25 @@ nav {
   @include btn-styles($bg-color: $featured-color, $text-color: #fff, $border-color: $featured-border-color);
 }
 
+// FORMS
+// SASS Interpolation
+$form-prefix: 'form';
+
+.#{$form-prefix} {
+  font: $font1;
+  width: $wide-form;
+  padding: $p-1;
+  border: $standard-border;
+}
+
+.#{$form-prefix}-grey {
+  @extend .form;
+  background-color: rgb(218, 218, 218);
+}
+
+.#{$form-prefix}-dark {
+  @extend .form;
+  background-color: $dark-color;
+  color: $light-color;
+}
   
